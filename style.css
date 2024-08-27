@@ -1,24 +1,37 @@
+
 .cabecalho {
     background-color: black;
     color: rgb(241, 165, 0);
     display: flex;
-    padding: 24px 0;
+    align-items: center;
+    padding: 24px;
+}
+
+.cabecalho-img {
+    width: 100px; /* Ajuste conforme necessário */
+    margin-left: 20px; /* Ajuste conforme necessário */
+}
+
+.section1, .section2 {
+    padding: 20px;
+    color: white;
 }
 
 .section1 {
     background-color: rgb(0, 0, 0);
-    padding: 100px;
 }
 
 .section2 {
     background-color: black;
-    padding: 100px;
-}
-.cabecalho.img{
-    width: 2%;
-}
-.rodape{
-  background-color: black;
-  color: rgb(0, 0, 0);
 }
 
+.rodape {
+    background-color: black;
+    color: rgb(241, 165, 0); /* Adiciona contraste */
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape img {
+    max-width: 100px; /* Ajuste conforme necessário */
+}
